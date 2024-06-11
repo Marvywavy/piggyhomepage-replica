@@ -1,0 +1,1340 @@
+*{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color:rgb(242, 247, 248) ;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  width: 1165px;
+  margin-right: 92px;
+  margin-left: 92px;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: fixed;
+  z-index: 1000; 
+  top: 0;
+}
+
+.list ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.list ul li a{
+  padding-right: 24px;
+  text-decoration: none;
+  color: rgb(61, 79, 96);
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.logo{
+  padding-right: 50px;
+}
+
+.generalbutton{
+margin-left: auto;
+  
+}
+
+.generalbutton button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border-bottom-color: rgb(12, 24, 37);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(12, 24, 37);
+ border-left-style: solid;
+ border-left-width: 1px;
+ border-right-color: rgb(12, 24, 37);
+ border-right-style: solid;
+ border-right-width: 1px;
+ border-top-color: rgb(12, 24, 37);
+ border-top-left-radius: 12px;
+ border-top-right-radius: 12px;
+ border-top-style: solid;
+ border-top-width: 1px;
+ box-sizing: border-box;
+ color: rgb(12, 24, 37);
+ cursor: pointer;
+ }
+ 
+ .generalbutton button a{
+   font-size: 16px;
+   font-weight: 600;
+ }
+ 
+ .first-button{
+   background-color: transparent;
+   margin-right: 15px;
+ }
+ 
+ .first-button a{
+   color: rgb(61, 79, 96);
+   text-decoration: none;
+ }
+ 
+ .second-button{
+   background-color: rgb(18, 34, 49);
+   transition: background-color 0.8s ease; 
+   margin-right: 0px;
+ }
+ 
+ .second-button:hover{
+   background-color: black;
+ }
+ 
+ .second-button a{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(18, 34, 49);
+ }
+ 
+
+.bar{
+  display: none;
+}
+
+.firstscroll-div{
+  width: 1165px;
+  margin-left: 92px;
+  margin-right: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 200px;
+  padding-bottom: 200px;
+  
+}
+
+
+.first-scroll{
+  width: 548px;
+  margin-left: 0px;
+  line-height: normal;
+  margin-top: 80px;
+  position: relative;
+}
+
+.first-scroll h1{
+color: rgb(18, 34, 49);
+font-weight: 700;
+font-size: 48px;
+margin-bottom: 0px;
+width: 450px;
+}
+
+.first-parag{
+  color: rgb(61, 79, 96);
+  font-size: 20px;
+  width: 380px;
+  height: 96px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  line-height: 32px;
+}
+.download-btn img{
+  margin-top: 10px;
+  background-color: rgb(18, 34, 49);
+  border: none;
+}
+
+
+.downimage{
+  margin-top: 25px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+
+.download-btn:hover {
+  cursor: pointer;
+  background-color: black;
+  transform: translateY(-5px); 
+}
+
+.download-btn{
+  background-color: rgb(18, 34, 49);
+  color: white;
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 12px;
+  margin-right: 12px;
+  transition: transform 0.2s ease;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+
+.ladyimage img{
+  width: 100%;
+height: 510px;
+animation: bounce 3s ease infinite alternate;
+position: relative;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(-10px);
+  }
+  
+  to{
+    transform: translateY(10px);
+  }
+  }
+  
+
+.ladyimage{
+  margin-left: auto;
+  width: 500px;
+ position: relative;
+}
+
+.stig{
+  box-sizing: border-box;
+  display: block;
+}
+ 
+.stig .safelock{
+  position: absolute;
+  top: -380px;
+  right: 370px;
+  width: 210px;
+  height: 60px;
+}
+
+.stig  .target{
+  width: 210px;
+  height: 82px;
+  position: absolute;
+  top: -430px;
+  right: -25px;
+}
+
+.stig  .fn{
+  width: 200px;
+  height: 77px;
+  position: absolute;
+  top: -180px;
+  right: 350px;
+}
+
+.stig  .investify{
+  width: 210px;
+  height: 60px;
+  position: absolute;
+    top: -180px;
+    right: -25px;
+}
+
+.stig  .pb{
+  width: 180px;
+  height: 69px;
+  position: absolute;
+  top: -50px;
+  right: 150px;
+}
+
+
+.second-scroll{
+  display: flex;
+  position: relative;
+  width: 1165px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.second-scroll h3{
+  color: rgb(18, 34, 49);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.second-scroll p{
+  margin-top: 15px;
+  color: rgb(61, 79, 96);
+  font-size: 16px;
+  line-height: 27.2px;
+}
+
+.second-scroll .otherpart{
+  width: 621px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.second-scroll svg{
+  color: rgb(61, 79, 96);
+}
+
+.second-scroll a{
+  color: rgb(18, 34, 49);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+/* all in third scroll */
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1165px;
+  margin-top: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  column-gap: 32px;
+  row-gap: 32px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 0;
+  position: relative;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+
+.third-scroll{
+  width: 565px;
+  height: 450px;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.third-scroll h3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 66px;
+  color: rgb(18, 34, 49);
+  width: 350px;
+  margin-top: 0px;
+  margin-left: 107.5px;
+  margin-right: 107.5px;
+  text-align: center;
+}
+
+.third-scroll p{
+  color: rgb(18, 34, 49);
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+  width: 350px;
+  margin-left: 107.5px;
+  margin-right: 107.5px;
+  margin-top: 18px;
+  margin-bottom: 53px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.third-scrollpart{
+  width: 525px;
+  height: 450px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 30px;
+  transition: all 1s ease;
+  margin: 0px;
+  position: relative;
+  right: 0;
+}
+
+.third-scrollpart h5{
+  color:  rgb(0, 51, 153);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: inherit;
+  transition: color 0.3s;
+}
+
+
+.third-scrollpart p{
+  margin-top: 25px;
+  color:  rgb(61, 79, 96);
+  font-size: 20px;
+  font-weight: 400;
+  width: 290px;
+  line-height: 28px;
+  background-color: inherit;
+  transition: color 0.3s;
+}
+
+.subtit{
+  margin-top: 210px;
+  background-color: inherit;
+}
+
+.subtit svg{
+color: rgb(0, 51, 153);
+font-size: 16px;
+font-weight: 500;
+background-color: inherit;
+transition: color 0.3s;
+}
+
+
+.subtit a{
+  color: rgb(0, 51, 153);
+  font-size: 16px;
+font-weight: 500;
+transition: color 0.3s;
+background-color: inherit;
+text-decoration: none;
+  }
+
+  .third-scrollpart .iphone-display{
+    width: 0px;
+    position: absolute;
+    bottom: -85px;
+    right: -10px;
+    background-color: transparent;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    height: 100px;
+  }
+
+  .third-scrollpart:hover .iphone-display{
+    visibility: visible;
+    background-color: transparent;
+    bottom: -85px;
+    width: 250px;
+    right: 20px;
+    height: 248px;
+  }
+
+  .third-scrollpart:hover{
+    background-color: rgb(15, 96, 214);
+    cursor: pointer;
+  }
+  
+  .third-scrollpart:hover h5,
+.third-scrollpart:hover p,
+.third-scrollpart:hover .subtit a{
+  color: white;
+}
+
+/*******************fixed saving**************/
+
+.fixedsaving{
+  width: 525px;
+  height: 450px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 30px;
+  transition: background-color 1s;
+  margin: 0px;
+  position: relative;
+}
+
+.fixedsaving .iphone-display{
+  width: 0px;
+    position: absolute;
+    bottom: -85px;
+    right: -10px;
+    background-color: transparent;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    height: 100px;
+}
+
+.fixedsaving:hover .iphone-display{
+  visibility: visible;
+  background-color: transparent;
+  bottom: -112px;
+  width: 250px;
+  right: 25px;
+  height: 248px;
+}
+
+.fixedsaving h6{
+  color: rgb(50, 150, 255);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0px;
+  line-height: normal;
+  margin-bottom: 0px;
+  background-color: inherit;
+}
+
+.fixedsaving p{
+  margin-top: 20px;
+  color:  rgb(61, 79, 96);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 280px;
+  background-color: inherit;
+}
+
+.subtitwo{
+  margin-top: 160px;
+  background-color: inherit;
+}
+
+.subtitwo svg{
+  color: rgb(50, 150, 255);
+  background-color: inherit;
+}
+
+.subtitwo a{
+  color: rgb(50, 150, 255);
+  font-size: 16px;
+font-weight: 500;
+background-color: inherit;
+text-decoration: none;
+}
+
+.fixedsaving:hover{
+background-color: rgb(108, 185, 246);
+cursor: pointer;
+}
+
+.fixedsaving h6,
+.fixedsaving  p,
+.fixedsaving .subtitwo svg,
+.fixedsaving:hover   .subtitwo a{
+transition: color 0.3s;
+}
+
+
+
+.fixedsaving:hover h6,
+.fixedsaving:hover p,
+.fixedsaving:hover   .subtitwo svg,
+.fixedsaving:hover   .subtitwo a{
+color: white;
+}
+
+.subtitwo a:hover{
+text-decoration: underline;
+text-decoration-color: rgb(165, 162, 162);
+text-decoration-thickness: 7px;
+}
+
+/*******************Oriented**************/
+.oriented{
+  width: 525px;
+  height: 450px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 30px;
+  margin: 0px;
+  transition: background-color 1s;
+  position: relative;
+}
+
+.oriented .iphone-display{
+  width: 0px;
+  position: absolute;
+  bottom: -85px;
+  right: -10px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  visibility: hidden;
+  height: 100px;
+}
+
+.oriented:hover .iphone-display{
+  visibility: visible;
+  background-color: transparent;
+  bottom: -102px;
+  width: 250px;
+  right: 25px;
+  height: 248px;
+}
+
+.oriented h6{
+  color:rgb(6, 155, 64);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0px;
+  line-height: normal;
+  margin-bottom: 0px;
+  background-color: inherit;
+}
+
+.oriented p{
+  margin-top: 30px;
+  color:  rgb(61, 79, 96);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 290px;
+  background-color: inherit;
+}
+
+.subtithree{
+  margin-top: 160px;
+  background-color: inherit;
+}
+
+.subtithree .svg-path{
+  color:  rgb(6, 155, 64);
+  background-color: transparent;
+}
+
+.subtithree a{
+  color:  rgb(6, 155, 64);
+  font-size: 16px;
+font-weight: 500;
+background-color: inherit;
+text-decoration: none;
+}
+
+.oriented:hover{
+  background-color: rgb(57, 194,119);
+  cursor: pointer;
+}
+
+.oriented h6,
+.oriented p,
+.oriented .svg-path,
+.oriented a{
+  transition: color 0.3s;
+}
+
+.oriented:hover h6,
+.oriented:hover p,
+.oriented:hover .subtithree a,
+.oriented:hover .subtithree .svg-path{
+  color: white;
+}
+
+.subtithree a:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(165, 162, 162);
+  text-decoration-thickness: 7px;
+  }
+
+  /*******************Naira**************/
+
+.naira{
+  width: 525px;
+  height: 450px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 30px;
+  transition: background-color 1s;
+  margin: 0px;
+  position: relative;
+}
+
+.naira .iphone-display{
+  width: 0px;
+  position: absolute;
+  bottom: -85px;
+  right: -10px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  visibility: hidden;
+  height: 100px;
+}
+
+.naira:hover .iphone-display{
+  visibility: visible;
+  background-color: transparent;
+  bottom: -112px;
+  width: 250px;
+  right: 25px;
+  height: 248px;
+}
+
+.naira h6{
+  color: rgb(229, 40, 142);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0px;
+  line-height: normal;
+  margin-bottom: 0px;
+  background-color: inherit;
+}
+
+.naira p{
+  margin-top: 30px;
+  color:  rgb(61, 79, 96);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 290px;
+  background-color: inherit;
+}
+
+.subtifive{
+  margin-top: 180px;
+  background-color: inherit;
+}
+
+.subtifive  svg{
+  color: rgb(229, 40, 142);
+  background-color: inherit;
+}
+
+.subtifive  a{
+  color: rgb(229, 40, 142);
+  font-size: 16px;
+font-weight: 500;
+background-color: inherit;
+text-decoration: none;
+}
+
+
+.naira:hover{
+background-color: rgb(229, 72, 155);
+cursor: pointer;
+}
+
+.naira h6,
+.naira  p,
+.naira .subtifive svg,
+.naira   .subtifive  a{
+transition: color 0.3s;
+}
+
+
+
+.naira:hover h6,
+.naira:hover p,
+.naira:hover   .subtifive svg,
+.naira:hover   .subtifive a{
+color: white;
+}
+
+.subtifive a:hover{
+text-decoration: underline;
+text-decoration-color: rgb(165, 162, 162);
+text-decoration-thickness: 7px;
+}
+
+/*******************dollar**************/
+
+.dollar{
+  width: 525px;
+  height: 450px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 30px;
+  margin: 0px;
+  transition: background-color 1s;
+  position: relative;
+}
+
+.dollar .iphone-display{
+  width: 0px;
+  position: absolute;
+  bottom: -85px;
+  right: -10px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  visibility: hidden;
+  height: 100px;
+}
+
+.dollar:hover .iphone-display{
+  visibility: visible;
+  background-color: transparent;
+  bottom: -112px;
+  width: 250px;
+  right: 25px;
+  height: 248px;
+}
+
+.dollar h6{
+  color:rgb(12, 24, 37);
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0px;
+  line-height: normal;
+  margin-bottom: 0px;
+  background-color: inherit;
+}
+
+.dollar p{
+  margin-top: 30px;
+  color:  rgb(61, 79, 96);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 290px;
+  background-color: inherit;
+}
+
+.subtifour{
+  margin-top: 210px;
+  background-color: inherit;
+}
+
+.subtifour .svg-path{
+  color:  rgb(12, 24, 37);
+  background-color: inherit;
+  
+}
+
+.subtifour a{
+  color:  rgb(12, 24, 37);
+  font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+background-color: inherit;
+}
+
+.dollar:hover{
+  background-color: rgb(12, 24, 37);
+  cursor: pointer;
+}
+
+.dollar h6,
+.dollar p,
+.dollar.svg-path,
+.dollar a{
+  transition: color 0.3s;
+}
+
+.dollar:hover h6,
+.dollar:hover p,
+.dollar:hover  .subtifour a,
+.dollar:hover  .subtifour .svg-path{
+  color: white;
+}
+
+.subtifoura:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(165, 162, 162);
+  text-decoration-thickness: 7px;
+  }
+
+  /*************investment********************/
+
+  .investment{
+    width: 1317px;
+    margin-right: auto;
+    margin-right: auto;
+    height: 735px;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+
+  }
+
+  .investment-flex{
+    display: flex;
+    background-color: inherit;
+    flex-direction: column;
+    width: 1165px;
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+
+  .investment h2{
+    color: rgb(18, 34, 49);
+    font-size: 51px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 64.1px;
+    background-color: inherit;
+ }
+
+ .investment p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(61, 79, 96);
+  line-height: 33px;
+  background-color: inherit;
+ }
+
+ .diverse{
+  width: 1037px;
+  padding: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  display: flex;
+  background-color: rgb(121, 19, 229);
+  border-radius: 30px;
+  height: 372px;
+ }
+
+ .diverse img{
+  float: right;
+  margin-right: 0x;
+  margin-top: 0px;
+  clear: right;
+  margin-bottom: 0px;
+  background-color: inherit;
+ }
+
+ 
+ .diverse  h4{
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  width: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 50px;
+  line-height: normal;
+  text-align: left;
+  background-color: inherit;
+ }
+
+ .diverse-flex{  
+  background-color: inherit;
+}
+
+.diverse-flex p{
+  color:rgb(254, 214, 241) ;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  width: 280px;
+  text-align: left;
+ }
+
+ .svg-div{
+  text-align: left;
+  background-color: inherit;
+  position: absolute;
+  bottom: -10px;
+ }
+
+ .svg-div svg{
+  background-color: inherit;
+ }
+
+ .svg-div a{
+color: white;
+background-color: inherit;
+text-decoration: none;
+ }
+
+ .svg-div a:hover{
+  text-decoration: underline ;
+  text-decoration-color: rgb(165, 162, 162);
+  text-decoration-thickness: 7px ;
+  text-decoration-skip-ink: none;
+ }
+
+ .diverse img{
+  position: absolute;
+  bottom: -64px;
+  right: -550px;
+ }
+
+ /*------------------------ saver----------------------------------------- */
+
+ .saver{
+  width: 811px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 160px;
+  padding-bottom: 64px;
+  text-align: center;
+ }
+
+ .saver h2{
+  color: rgb(18, 34, 49);
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 64.1px;
+ }
+
+ .saver p{
+  color: rgb(61, 79, 96);
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 10px;
+  width: 811px;
+  line-height: 33px;
+  margin-bottom: 0px;
+ }
+
+ .video-container{
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  border-color: white;
+  width: 791px;
+  margin-top: 60px;
+  height: 445px;
+ }
+
+ .video-container .video{
+  width: 791px;
+  height: 445px;
+  border-radius: 20px;
+ }
+
+ /*------------------------ last----------------------------------------- */
+
+ .last{
+  width: 1317px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+
+ .last .container{
+  width: 1165px;
+  margin-left: 76px;
+  margin-right: 76px;
+  height: 527px;
+ }
+
+ .all-div{
+  display: flex;
+  width: 1195px;
+ }
+
+ .image-div img{
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 484px;
+ }
+
+ .last-header{
+  align-content: center;
+  padding-left: 20px;
+  padding-right: 16px;
+ }
+
+ .last-header h4{
+  color: rgb(18, 34, 49);
+  font-size: 33px;
+  font-weight: 700;
+  display: block;
+  width: 500px;
+  line-height: 41.21px;
+  margin-top: 32px;
+  margin-bottom: 25px;
+ }
+ .last-header img{
+  cursor: pointer;
+ }
+
+
+ /*-----------------lastcon-all--------------------*/
+
+ .lastcon-all{
+  width: 1317px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  text-align: center;
+  background-image: linear-gradient(rgb(242, 248, 244), rgb(255, 255, 255) 33.01%);
+ }
+
+ .last-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+ }
+
+ .last-container h4{
+  color: rgb(18, 34, 49);
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41.21px;
+  background-color: white;
+}
+
+.companies{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  line-height: 27.2px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 1120px;
+  background-color: white;
+  row-gap: 0px;
+  min-height: 96px;
+  
+}
+
+.companies .tech{
+  background-color: white;
+  width: 160px;
+  height: 39.547px;
+  cursor: pointer;
+}
+
+.companies .guard{
+  background-color: white;
+  width: 160px;
+  height: 24.3px;
+  cursor: pointer;
+}
+
+.companies .crunch{
+  background-color: white;
+  width: 160px;
+  height: 28.03px;
+  cursor: pointer;
+}
+
+.companies .pymts{
+  background-color: white;
+  width: 160px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.companies .fast{
+  background-color: white;
+  width: 160px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.companies .cio{
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.footer{
+  width: 1317px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.footer-con{
+  width: 1165px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+}
+
+.footer-row{
+  display: flex;
+  flex-direction: row;
+  background-color: inherit;
+}
+
+.img-flex{
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+  background-color: inherit;
+  width: 268px;
+  justify-content: space-between;
+}
+
+.img-con{
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  text-align: center;
+  width: 173px;
+  height: 141px;
+}
+
+.img-con .imageone{
+width: 172px;
+height: 32px;
+background-color: white;
+}
+
+.img-con .imagetwo{
+  width: 102px;
+  height: 84px;
+  background-color: inherit;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .product-con{
+    width: 149.25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: left;
+    color: rgb(61, 79, 96);
+  }
+
+  .product-con a{
+    margin-top: 0px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    color: rgb(61, 79, 96);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.08px;
+  }
+
+   .product-con p{
+    margin-top: 0px;
+    margin-bottom: 8px;
+    background-color: white;
+    display: block;
+  }
+
+  .products-con a:hover{
+    color: rgb(13, 96, 216);
+  }
+
+
+  .info-con{
+    width: 268.750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+  }
+
+  .app-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: white;
+    line-height: 27.2px;
+    letter-spacing: -0.48px;
+    column-gap: 8px;
+    margin-bottom: 5px;
+  }
+
+  .app-con  img{
+    transition: transform 0.2s ease; /* Smooth transition effect */
+  }
+
+
+  .app-con img:hover {
+    transform: translateY(-5px); /* Move the element 5 pixels upward */
+    cursor: pointer;
+  }
+
+  .info-con a{
+    color: rgb(61, 79, 96);
+    display: block;
+    margin-bottom: 8px;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    line-height: 22.08px;
+    flex-basis: 25px;
+    text-decoration: none;
+    background-color: white;
+  }
+
+  .info-con a:hover{
+    opacity: 1;
+  }
+
+  .address{
+    width: 270px;
+  }
+
+  .separator {
+    margin: 20px 0; /* Add some spacing above and below the separator */
+  }
+
+  .lastp{
+    display: block;
+    background-color: white;
+  }
+
+  .fpara{
+    max-width: 619px;
+    display: block;
+    font-size: 11px;
+    color: rgba(61, 79, 96, 0.65);
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 31px;
+    background-color: white;
+  }
+
+  .spara{
+    max-width: 441px;
+    display: block;
+    font-size: 11px;
+    color: rgba(61, 79, 96, 0.65);
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 31px;
+    background-color: white;
+  }
+
+  .tpara{
+    max-width: 441px;
+    display: block;
+    font-size: 11px;
+    color: rgb(8, 62, 158);
+    line-height: 27px;
+    margin-top: 0px;
+    margin-bottom: 31px;
+    background-color: white;
+  }
+
+
+  @media only screen and (max-width:700px){
+    
+  }
